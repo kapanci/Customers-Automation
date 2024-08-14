@@ -18,12 +18,14 @@ Bu katman, iş mantığını ve iş kurallarını içerir. Servisler bu katmanda
 ### İçerikler
   abstract:
     - `ICustomerService.cs`: Müşteri servisleri için arayüz.
+    
     - `ICustomerComService.cs`: Müşteri iletişim bilgileri için arayüz.
+    
     - `ICustomerAddressService.cs`: Müşteri adres bilgileri için arayüz. 
    Concrete: 
-    - `CustomerManager.cs`: `ICustomerService` arayüzünü implement eden sınıf.
-    - `CustomerComManager.cs`: `ICustomerComService.cs` arayüzünü implement eden sınıf.
-    - `CustomerAddressManager.cs`: `ICustomerAddressService.cs` arayüzünü implement eden sınıf.
+    -- `CustomerManager.cs`: `ICustomerService` arayüzünü implement eden sınıf.
+    -- `CustomerComManager.cs`: `ICustomerComService.cs` arayüzünü implement eden sınıf.
+    -- `CustomerAddressManager.cs`: `ICustomerAddressService.cs` arayüzünü implement eden sınıf.
 ## DataAccsesLayer
 
 Bu katman, veritabanı işlemlerini yönetir ve veri erişim nesnelerini içerir. Genellikle Entity Framework kullanılarak veri erişimi sağlanır.
