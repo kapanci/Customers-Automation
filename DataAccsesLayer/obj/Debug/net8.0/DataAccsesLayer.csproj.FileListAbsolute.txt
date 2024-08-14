@@ -1,0 +1,17 @@
+C:\Users\Hp\source\repos\StajV2\DataAccsesLayer\bin\Debug\net8.0\DataAccsesLayer.deps.json
+C:\Users\Hp\source\repos\StajV2\DataAccsesLayer\bin\Debug\net8.0\DataAccsesLayer.runtimeconfig.json
+C:\Users\Hp\source\repos\StajV2\DataAccsesLayer\bin\Debug\net8.0\DataAccsesLayer.dll
+C:\Users\Hp\source\repos\StajV2\DataAccsesLayer\bin\Debug\net8.0\DataAccsesLayer.pdb
+C:\Users\Hp\source\repos\StajV2\DataAccsesLayer\bin\Debug\net8.0\Entity.dll
+C:\Users\Hp\source\repos\StajV2\DataAccsesLayer\bin\Debug\net8.0\Entity.pdb
+C:\Users\Hp\source\repos\StajV2\DataAccsesLayer\obj\Debug\net8.0\DataAccsesLayer.csproj.AssemblyReference.cache
+C:\Users\Hp\source\repos\StajV2\DataAccsesLayer\obj\Debug\net8.0\DataAccsesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\source\repos\StajV2\DataAccsesLayer\obj\Debug\net8.0\DataAccsesLayer.AssemblyInfoInputs.cache
+C:\Users\Hp\source\repos\StajV2\DataAccsesLayer\obj\Debug\net8.0\DataAccsesLayer.AssemblyInfo.cs
+C:\Users\Hp\source\repos\StajV2\DataAccsesLayer\obj\Debug\net8.0\DataAccsesLayer.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\StajV2\DataAccsesLayer\obj\Debug\net8.0\DataAccs.82D0EA67.Up2Date
+C:\Users\Hp\source\repos\StajV2\DataAccsesLayer\obj\Debug\net8.0\DataAccsesLayer.dll
+C:\Users\Hp\source\repos\StajV2\DataAccsesLayer\obj\Debug\net8.0\refint\DataAccsesLayer.dll
+C:\Users\Hp\source\repos\StajV2\DataAccsesLayer\obj\Debug\net8.0\DataAccsesLayer.pdb
+C:\Users\Hp\source\repos\StajV2\DataAccsesLayer\obj\Debug\net8.0\DataAccsesLayer.genruntimeconfig.cache
+C:\Users\Hp\source\repos\StajV2\DataAccsesLayer\obj\Debug\net8.0\ref\DataAccsesLayer.dll
