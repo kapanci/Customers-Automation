@@ -82,3 +82,6 @@ Bu katman, uygulama verilerini modelleyen ve veritabanı tablolarını temsil ed
     - `CustomerCom.html`: Müşteri iletişim verilerini (örn. e-posta, telefon numarası) görüntülemek ve yönetmek için kullanılan HTML dosyasıdır. Müşteri iletişim bilgilerinin listelenmesi, eklenmesi, düzenlenmesi     ve silinmesi için gerekli HTML yapıları ve formlar içerir.
     
     -`CustomerCom.js`: CustomerCom.html dosyasında tanımlanan müşteri iletişim yönetimi işlevlerini sağlayan JavaScript dosyasıdır. Müşteri iletişim verisi ekleme, silme, güncelleme ve listeleme işlemlerinin iş       mantığını ve API entegrasyonunu içerir.
+
+## Bootstrap Kütüphanesi
+Bootstrap kütüphanesi, web geliştirme sürecini hızlandırmak ve kolaylaştırmak için tasarlanmış bir araçtır. Bootstrap, HTML, CSS ve JavaScript bileşenleri sunarak, modern, duyarlı (responsive) ve estetik açıdan çekici web uygulamaları ve siteleri oluşturmanıza yardımcı olur.    
