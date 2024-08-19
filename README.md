@@ -70,6 +70,7 @@ Bu katman, uygulama verilerini modelleyen ve veritabanı tablolarını temsil ed
 
 
 ##Front-End
+
     - `Customer.html`: Müşteri verilerini görüntülemek ve yönetmek için kullanılan HTML dosyasıdır. Müşterilerin listelenmesi, eklenmesi, düzenlenmesi ve silinmesi için gerekli olan tüm HTML yapıları ve formlar       bu dosyada yer alır.
     
     - `Customer.js`: Customer.html dosyasında tanımlanan müşteri yönetimi işlevlerini sağlayan JavaScript dosyasıdır. Müşteri ekleme, silme, güncelleme ve listeleme işlemlerinin iş mantığını ve API entegrasyonunu     içerir.
