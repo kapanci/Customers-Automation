@@ -69,7 +69,7 @@ Bu katman, uygulama verilerini modelleyen ve veritabanı tablolarını temsil ed
 
 
 
-##Front-End
+## Front-End
 
     - `Customer.html`: Müşteri verilerini görüntülemek ve yönetmek için kullanılan HTML dosyasıdır. Müşterilerin listelenmesi, eklenmesi, düzenlenmesi ve silinmesi için gerekli olan tüm HTML yapıları ve formlar       bu dosyada yer alır.
     
