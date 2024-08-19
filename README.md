@@ -88,12 +88,14 @@ Bootstrap kütüphanesi, web geliştirme sürecini hızlandırmak ve kolaylaşt�
 
 ## Kurulum ve Çalıştırma
 1. Projeyi Klonlama
+   
 Projeyi yerel makinenize klonlamak için:
 
-  git clone https://github.com/kullaniciadi/proje-adi.git
-  cd proje-adi
+    git clone https://github.com/kullaniciadi/proje-adi.git
+    cd proje-adi
   
 2. Bağımlılıkları Yükleme
+   
 .NET Projesi İçin:
 
     dotnet restore
@@ -104,23 +106,27 @@ Projeyi yerel makinenize klonlamak için:
     cd frontend
     npm install
     cd ..
+    
 3. Veritabanını Güncelleme
+   
 Veritabanı migration’larını uygulayarak gerekli tabloları oluşturun:
 
-  dotnet ef database update
+    dotnet ef database update
   
 4. Uygulamayı Başlatma
+
 Projeyi başlatmak için:
 
-  dotnet run
-  Uygulama, http://localhost:5000 adresinde çalışacaktır.
+    dotnet run
+    Uygulama, http://localhost:5000 adresinde çalışacaktır.
 
 5. Geliştirme İçin Frontend Sunucusu
+   
 Frontend geliştirme yaparken, yerel bir geliştirme sunucusu başlatmak için:
 
-  cd frontend
-  npm start
-  cd ..
+    cd frontend
+    npm start
+    cd ..
 
 
 
