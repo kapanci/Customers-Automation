@@ -70,15 +70,9 @@ Bu katman, uygulama verilerini modelleyen ve veritabanı tablolarını temsil ed
 
 
 ##Front-End
-- 'Customer.html'
-   Açıklama: Müşteri verilerini görüntülemek ve yönetmek için kullanılan HTML dosyasıdır. Müşterilerin listelenmesi, eklenmesi, düzenlenmesi ve silinmesi için gerekli olan tüm HTML yapıları ve formlar bu             dosyada yer alır.
-2. Customer.js
-Açıklama: Customer.html dosyasında tanımlanan müşteri yönetimi işlevlerini sağlayan JavaScript dosyasıdır. Müşteri ekleme, silme, güncelleme ve listeleme işlemlerinin iş mantığını ve API entegrasyonunu içerir.
-3. CustomerAddress.html
-Açıklama: Müşteri adresleri ile ilgili verileri görüntülemek ve yönetmek için kullanılan HTML dosyasıdır. Müşteri adreslerinin listelenmesi, eklenmesi, düzenlenmesi ve silinmesi için gerekli HTML yapıları ve formlar içerir.
-4. CustomerAddress.js
-Açıklama: CustomerAddress.html dosyasında tanımlanan müşteri adresi yönetimi işlevlerini sağlayan JavaScript dosyasıdır. Müşteri adresi ekleme, silme, güncelleme ve listeleme işlemlerinin iş mantığını ve API entegrasyonunu içerir.
-5. CustomerCom.html
-Açıklama: Müşteri iletişim verilerini (örn. e-posta, telefon numarası) görüntülemek ve yönetmek için kullanılan HTML dosyasıdır. Müşteri iletişim bilgilerinin listelenmesi, eklenmesi, düzenlenmesi ve silinmesi için gerekli HTML yapıları ve formlar içerir.
-6. CustomerCom.js
-Açıklama: CustomerCom.html dosyasında tanımlanan müşteri iletişim yönetimi işlevlerini sağlayan JavaScript dosyasıdır. Müşteri iletişim verisi ekleme, silme, güncelleme ve listeleme işlemlerinin iş mantığını ve API entegrasyonunu içerir.
+    - `Customer.html`: Müşteri verilerini görüntülemek ve yönetmek için kullanılan HTML dosyasıdır. Müşterilerin listelenmesi, eklenmesi, düzenlenmesi ve silinmesi için gerekli olan tüm HTML yapıları ve formlar       bu dosyada yer alır.
+    - `Customer.js`: Customer.html dosyasında tanımlanan müşteri yönetimi işlevlerini sağlayan JavaScript dosyasıdır. Müşteri ekleme, silme, güncelleme ve listeleme işlemlerinin iş mantığını ve API entegrasyonunu     içerir.
+    - `CustomerAddress.html`: Müşteri adresleri ile ilgili verileri görüntülemek ve yönetmek için kullanılan HTML dosyasıdır. Müşteri adreslerinin listelenmesi, eklenmesi, düzenlenmesi ve silinmesi için gerekli       HTML yapıları ve formlar içerir.
+    - `CustomerAddress.js` : CustomerAddress.html dosyasında tanımlanan müşteri adresi yönetimi işlevlerini sağlayan JavaScript dosyasıdır. Müşteri adresi ekleme, silme, güncelleme ve listeleme işlemlerinin iş        mantığını ve API entegrasyonunu içerir.
+    - `CustomerCom.html`: Müşteri iletişim verilerini (örn. e-posta, telefon numarası) görüntülemek ve yönetmek için kullanılan HTML dosyasıdır. Müşteri iletişim bilgilerinin listelenmesi, eklenmesi, düzenlenmesi     ve silinmesi için gerekli HTML yapıları ve formlar içerir.
+    -`CustomerCom.js`: CustomerCom.html dosyasında tanımlanan müşteri iletişim yönetimi işlevlerini sağlayan JavaScript dosyasıdır. Müşteri iletişim verisi ekleme, silme, güncelleme ve listeleme işlemlerinin iş       mantığını ve API entegrasyonunu içerir.
