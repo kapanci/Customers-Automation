@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Management</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Select Management</h2>
+        <a href="Customer.html" class="btn btn-primary mb-3">Manage Customer</a>
+        <a href="CustomerCom.html" class="btn btn-warning mb-3">Manage CustomerCom</a>
+        <a href="CustomerAddress.html" class="btn btn-info mb-3">Manage addresses</a>
+
+        <div id="content">
+            <!-- The content (tables, forms) will be dynamically loaded here based on the selected button -->
+        </div>
+    </div>
+    <div class="container mt-5">
+        <h2>Customer Data</h2>
+        <button class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#addCustomerModal">Add Customer</button>
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>#</th>
+                    <th>Name:</th>
+                    <th>Surname:</th>
+                    <th>Tc No:</th>
+                    <th>UnusualName:</th>
+                    <th>Functions:</th>
+                </tr>
+            </thead>
+            <tbody id="customer-table-body">
+                <!-- Dinamik olarak buraya veriler eklenecek -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Add Customer Modal -->
+    <div class="modal fade" id="addCustomerModal" tabindex="-1" aria-labelledby="addCustomerModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addCustomerModalLabel">Add Customer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="addCustomerForm">
+                        <div class="mb-3">
+                            <label for="customerName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="customerName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="customerSurname" class="form-label">Surname</label>
+                            <input type="text" class="form-control" id="customerSurname" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="customerTcNo" class="form-label">Tc No</label>
+                            <input type="text" class="form-control" id="customerTcNo" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Add Customer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Customer Modal -->
+    <div class="modal fade" id="editCustomerModal" tabindex="-1" aria-labelledby="editCustomerModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editCustomerModalLabel">Edit Customer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="editCustomerForm">
+                        <input type="hidden" id="editCustomerId">
+                        <div class="mb-3">
+                            <label for="editCustomerName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="editCustomerName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="editCustomerSurname" class="form-label">Surname</label>
+                            <input type="text" class="form-control" id="editCustomerSurname" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="editCustomerTcNo" class="form-label">TC No</label>
+                            <input type="text" class="form-control" id="editCustomerTcNo" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Save Changes</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Customer.js"></script> <!-- JavaScript dosyası -->
+</body>
+</html>
