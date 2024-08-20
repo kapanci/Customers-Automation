@@ -56,15 +56,28 @@ document.getElementById('editCustomerForm').addEventListener('submit', async fun
     console.log("Save Changes button clicked"); // Check if this logs in the console
 
     const id = document.getElementById('editCustomerId').value;
-    const name = document.getElementById('editCustomerName').value;
-    const surname = document.getElementById('editCustomerSurname').value;
-    const tcNo = document.getElementById('editCustomerTcNo').value;
+    const addressName = document.getElementById('editCustomeraddressName').value;
+    const city = document.getElementById('editCustomercity').value;
+    const district = document.getElementById('editCustomerdistrict').value;
+    const neighborhood = document.getElementById('editCustomerneighborhood').value;
+    const street = document.getElementById('editCustomerstreet').value;
+    const buildingNumber = document.getElementById('editCustomerbuildingNumber').value;
+    const apartmentNumber = document.getElementById('editCustomerapartmentNumber').value;
+    const postalCode = document.getElementById('editCustomerpostalCode').value;
+    const fullAddress = document.getElementById('editCustomerfullAddress').value;
+
 
     const updatedCustomer = {
         id: id,
-        name: name,
-        surname: surname,
-        tcNo: tcNo
+        addressName: addressName,
+        city: city,
+        district: district,
+        neighborhood: neighborhood,
+        street: street,
+        buildingNumber: buildingNumber,
+        apartmentNumber: apartmentNumber,
+        postalCode: postalCode,
+        fullAddress: fullAddress
     };
 
     try {
