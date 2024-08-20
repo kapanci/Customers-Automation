@@ -192,10 +192,16 @@ async function editCustomer(id) {
         const customer = await response.json();
 
         // Fill the form with the existing customer data
-        document.getElementById('editCustomerId').value = customer.id;
-        document.getElementById('editCustomerName').value = customer.name;
-        document.getElementById('editCustomerSurname').value = customer.surname;
-        document.getElementById('editCustomerTcNo').value = customer.tcNo;
+        document.getElementById('editCustomerAddressName').value = customer.AddressName;
+        document.getElementById('editCustomerCity').value = customer.City;
+        document.getElementById('editCustomerDistrict').value = customer.District;
+        document.getElementById('editCustomerNeighborhood').value = customer.Neighborhood;
+        document.getElementById('editCustomerStreet').value = customer.Street;
+        document.getElementById('editCustomerBuildingNumber').value = customer.BuildingNumber;
+        document.getElementById('editCustomerApartmentNumber').value = customer.ApartmentNumber;
+        document.getElementById('editCustomerPostalCode').value = customer.PostalCode;
+        document.getElementById('editCustomerFullAddress').value = customer.FullAddress;
+
 
         // Show the modal
         const editModal = new bootstrap.Modal(document.getElementById('editCustomerModal'));
