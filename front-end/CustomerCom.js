@@ -28,12 +28,14 @@ function addDataToTable(customers) {
     // Add new data
     customers.forEach((customer, index) => {
         const row = document.createElement('tr');
-
+                    
         row.innerHTML = `
             <td>${index + 1}</td>
             <td>${customer.name}</td>
-            <td>${customer.surname}</td>
-            <td>${customer.tcNo}</td>
+            <td>${customer.Type}</td>
+            <td>${customer.Data}</td>
+            <td>${customer.CustomerId}</td>
+
             <td>
                 <button class="btn btn-warning btn-sm" onclick="editCustomer(${customer.id})">Edit</button>
                 <button class="btn btn-danger btn-sm" onclick="deleteCustomer(${customer.id})">Delete</button>
@@ -49,16 +51,17 @@ document.getElementById('editCustomerForm').addEventListener('submit', async fun
 
     console.log("Save Changes button clicked"); // Check if this logs in the console
 
-    const id = document.getElementById('editCustomerId').value;
-    const name = document.getElementById('editCustomerName').value;
-    const surname = document.getElementById('editCustomerSurname').value;
-    const tcNo = document.getElementById('editCustomerTcNo').value;
+    const name = document.getElementById('editCustomername').value;
+    const Type = document.getElementById('editCustomerType').value;
+    const Data = document.getElementById('editCustomerData').value;
+    const CustomerId = document.getElementById('editCustomerCustomerId').value;
 
     const updatedCustomer = {
-        id: id,
+        
         name: name,
-        surname: surname,
-        tcNo: tcNo
+        Type: Type,
+        Data: Data,
+        CustomerId: CustomerId
     };
 
     try {
@@ -94,13 +97,15 @@ document.getElementById('addCustomerForm').addEventListener('submit', async func
     event.preventDefault();
     
     const name = document.getElementById('customerName').value;
-    const surname = document.getElementById('customerSurname').value;
-    const tcNo = document.getElementById('customerTcNo').value;
+    const Type = document.getElementById('customerType').value;
+    const Data = document.getElementById('customerData').value;
+    const CustomerId = document.getElementById('customerCustomerId').value;
 
     const newCustomer = {
         name: name,
-        surname: surname,
-        tcNo: tcNo
+        Type: Type,
+        Data: Data,
+        CustomerId: CustomerId
     };
 
     try {
@@ -182,10 +187,10 @@ async function editCustomer(id) {
         const customer = await response.json();
 
         // Fill the form with the existing customer data
-        document.getElementById('editCustomerId').value = customer.id;
-        document.getElementById('editCustomerName').value = customer.name;
-        document.getElementById('editCustomerSurname').value = customer.surname;
-        document.getElementById('editCustomerTcNo').value = customer.tcNo;
+        document.getElementById('editCustomername').value = customer.name;
+        document.getElementById('editCustomerType').value = customer.Type;
+        document.getElementById('editCustomerData').value = customer.Data;
+        document.getElementById('editCustomerCustomerId').value = customer.CustomerId;
 
         // Show the modal
         const editModal = new bootstrap.Modal(document.getElementById('editCustomerModal'));
