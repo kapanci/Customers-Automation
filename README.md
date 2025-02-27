@@ -1,6 +1,6 @@
 # Customers-Automation
 
-Bu proje, bir müşteri yönetim sistemi API'sini içerir. Aşağıdaki katmanları içerir:
+Bu proje, bir müşteri yönetim sistemidir. Aşağıdaki katmanları içerir:
 
 ## API
 
